@@ -1,0 +1,23 @@
+version: "3.9"
+services:
+  eureka:
+    image: springcloud/eureka
+    ports:
+    - 8761:8761
+  consul:
+    image: consul
+    ports:
+    - 8500:8500
+  zookeeper:
+    image: zookeeper
+    restart: always
+    ports:
+    - 2181:2181
+    - 2888:2888
+    - 3888:3888
+    - 8080:8080
+  rabbitmq:
+    image: rabbitmq:management
+    ports:
+      - 5672:5672
+      - 15672:15672

@@ -1,0 +1,30 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: bus-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/coderfast/test.git
+          search-paths: test
+      label: master
+  rabbitmq:
+    host: 192.168.0.102
+    port: 5672
+    username: guest
+    password: guest
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}-${eureka.instance.hostname}:${server.port}
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'

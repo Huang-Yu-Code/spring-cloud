@@ -1,0 +1,12 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: consul-discovery-consumer
+  cloud:
+    consul:
+      host: server
+      port: 8500
+      discovery:
+        prefer-ip-address: true
+        service-name: ${spring.application.name}-${server.port}
