@@ -80,19 +80,19 @@ windows系统不需要单独安装
 
 ### Eureka
 
-[示例](./netflix/eureka/README.md)
+[示例](./netflix/eureka)
 
 ### Ribbon
 
-[示例](./netflix/eureka/README.md)
+[示例](./netflix/ribbon)
 
 ### Hystrix
 
-[示例](./netflix/eureka/README.md)
+[示例](./netflix/hystrix)
 
 ### zuul
 
-[示例](./netflix/eureka/README.md)
+[示例](./netflix/zuul)
 
 ## Consul
 
@@ -104,7 +104,7 @@ windows系统不需要单独安装
 
 [参考文档](https://spring.io/projects/spring-cloud-consul)
 
-[示例](./consul/README.md)
+[示例](./consul)
 
 ## Zookeeper
 
@@ -116,31 +116,33 @@ windows系统不需要单独安装
 
 [参考文档](https://docs.spring.io/spring-cloud-zookeeper/docs/current/reference/html/)
 
-[示例](./zookeeper/README.md)
+[zkui](https://github.com/DeemOpen/zkui)
+
+[示例](./zookeeper)
 
 ## Openfeign
 
-[GitHub](https://github.com/Netflix/eureka)
+[GitHub](https://github.com/spring-cloud/spring-cloud-openfeign)
 
 [参考文档](https://docs.spring.io/spring-cloud-openfeign/docs/current/reference/html/)
 
-[示例](./openfeign/README.md)
+[示例](./openfeign)
 
 ## Gateway
 
-[GitHub](https://github.com/Netflix/eureka)
+[GitHub](https://github.com/spring-cloud/spring-cloud-gateway)
 
 [参考文档](https://docs.spring.io/spring-cloud-gateway/docs/current/reference/html/)
 
-[示例](./gateway/README.md)
+[示例](./gateway)
 
 ## Config
 
-[GitHub](https://github.com/Netflix/eureka)
+[GitHub](https://github.com/spring-cloud/spring-cloud-config)
 
 [参考文档](https://docs.spring.io/spring-cloud-config/docs/current/reference/html/)
 
-[示例](./config/README.md)
+[示例](./config)
 
 ## Bus
 
@@ -148,5 +150,5 @@ windows系统不需要单独安装
 
 [参考文档](https://docs.spring.io/spring-cloud-bus/docs/current/reference/html/)
 
-[示例](./bus/README.md)
+[示例](./bus)
 

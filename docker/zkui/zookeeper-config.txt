@@ -1,0 +1,5 @@
+/appconfig/hosts=foo=bar
+/config/zookeeper-config,dev=config.author=codingob
+/config/zookeeper-config,dev=config.center=zookeeper
+/config/zookeeper-config,dev=config.info=config-info
+/config/zookeeper-config,dev=config.version=1.0.0
