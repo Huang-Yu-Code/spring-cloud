@@ -94,6 +94,22 @@ windows系统不需要单独安装
 
 [示例](./netflix/zuul)
 
+## Config
+
+[GitHub](https://github.com/spring-cloud/spring-cloud-config)
+
+[参考文档](https://docs.spring.io/spring-cloud-config/docs/current/reference/html/)
+
+[示例](./config)
+
+## Bus
+
+[GitHub](https://github.com/spring-cloud/spring-cloud-bus)
+
+[参考文档](https://docs.spring.io/spring-cloud-bus/docs/current/reference/html/)
+
+[示例](./bus)
+
 ## Consul
 
 [官网](https://www.consul.io/)
@@ -135,20 +151,4 @@ windows系统不需要单独安装
 [参考文档](https://docs.spring.io/spring-cloud-gateway/docs/current/reference/html/)
 
 [示例](./gateway)
-
-## Config
-
-[GitHub](https://github.com/spring-cloud/spring-cloud-config)
-
-[参考文档](https://docs.spring.io/spring-cloud-config/docs/current/reference/html/)
-
-[示例](./config)
-
-## Bus
-
-[GitHub](https://github.com/spring-cloud/spring-cloud-bus)
-
-[参考文档](https://docs.spring.io/spring-cloud-bus/docs/current/reference/html/)
-
-[示例](./bus)
 
