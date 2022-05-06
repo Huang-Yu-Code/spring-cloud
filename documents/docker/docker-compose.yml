@@ -25,9 +25,3 @@ services:
     - "9090:9090"
     depends_on:
       - zookeeper
-
-  rabbitmq:
-    image: rabbitmq:management
-    ports:
-      - "5672:5672"
-      - "15672:15672"
