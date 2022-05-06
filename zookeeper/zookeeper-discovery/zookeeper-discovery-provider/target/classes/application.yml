@@ -1,8 +1,0 @@
-server:
-  port: 8081
-spring:
-  application:
-    name: zookeeper-discovery-provider
-  cloud:
-    zookeeper:
-      connect-string: server:2181

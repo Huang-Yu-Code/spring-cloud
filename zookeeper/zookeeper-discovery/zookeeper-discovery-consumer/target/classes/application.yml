@@ -1,8 +1,0 @@
-server:
-  port: 8084
-spring:
-  application:
-    name: zookeeper-discovery-consumer
-  cloud:
-    zookeeper:
-      connect-string: server:2181
